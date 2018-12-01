@@ -18,8 +18,8 @@ var nestChannel string = "7246846588445897" //Create a nest channel on discord, 
 var listOfNestID = []string{} // DO NOT TOUCH THIS! Leave blank
 var admins = []string{"ADMIN1297369", "ADMIN92736947"} //Put a list of users ID's who can use the migrate feature here. Read the readme for formatting.
 var nestLocations = map[string]string{
-  "Lake of Elves":"43.123123,132.123123",
-  "Lake of Dragons":"43.456456,132.456456",
+  "lake of elves":"43.123123,132.123123",
+  "lake of dragons":"43.456456,132.456456",
 } // set up your nests and locations here, names should be lowercase, no space between lat,lon!
 
 func init() {
