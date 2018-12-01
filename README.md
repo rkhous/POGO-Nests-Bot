@@ -16,11 +16,13 @@ A bot, written in Go, to help discord servers efficiently, neatly, and quickly a
 - _var admins = []string{"Admin ID 1", "Admin ID 2", "etc"}_
 
 ## Adding Nests to Code
-- Finally, you will need to add your area's nests so the bot can grab locations. Please edit this portion as shown below:
+- Finally, you will need to add your area's nests so the bot can grab locations.
+- Note: Lat and lon MUST NOT have a space in between them & names should be lowercase. 
+- Please edit this portion as shown below:
 ```Go
 var nestLocations = map[string]string{
-	"Park of Dragons":"43.00009,-121.744121",
-	"Lake of Elves":"43.152435,-121.260806",
+	"park of dragons":"43.00009,-121.744121",
+	"lake of elves":"43.152435,-121.260806",
 }
 ```
 
